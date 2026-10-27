@@ -1,0 +1,5 @@
+<figure class="segment-chart" aria-labelledby="segment-caption">
+<figcaption id="segment-caption">事業別の売上と営業損益 <small>2026年Q3・億ドル／出典 S1</small></figcaption>
+<div class="chart-grid"><div><h3>売上高 <small>0〜80億ドル</small></h3>{% for s in page.segments %}<div class="bar-row"><span>{{ s.name }}</span><div class="bar-track"><span class="bar" style="width:{{ s.revenue | times: 100.0 | divided_by: 80 }}%"></span></div><strong>{{ s.revenue }}</strong></div>{% endfor %}</div>
+<div><h3>営業損益 <small>共通ゼロ基準／右端25億ドル</small></h3>{% for s in page.segments %}<div class="bar-row"><span>{{ s.name }}</span><div class="profit-track">{% if s.operating < 0 %}<span class="loss-marker" title="損失"></span>{% else %}<span class="profit-bar" style="width:{{ s.operating | times: 100.0 | divided_by: 25 }}%"></span>{% endif %}</div><strong>{{ s.operating }}</strong></div>{% endfor %}<p class="chart-note">Spaceの損失は微小なため、ゼロ左のマーカーと数値で表示。下表で正確な値を確認できます。</p></div></div>
+</figure>

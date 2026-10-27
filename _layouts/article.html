@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-<main class="wrap article"><a href="{{ '/' | relative_url }}">← 企業一覧へ</a><p class="eyebrow">{{ page.period | escape }} · {{ page.published | escape }}</p><p class="muted">{{ page.review_status | escape }}</p>{{ content }}</main>
+<main id="main" class="wrap article"><a class="back-link" href="{{ '/' | relative_url }}">← 分析記事一覧へ</a><header class="article-head"><p class="eyebrow">SPACEX / EARNINGS RESEARCH / {{ page.period | escape }}</p><h1>{{ page.title | escape }}</h1><div class="article-meta"><span>決算発表 {{ page.announcement | escape }}</span><span>公開 {{ page.published | escape }}</span><span>改訂 {{ page.updated | default: page.published | escape }}</span></div><p class="muted">{{ page.review_status | escape }} · 株価評価：未実施</p></header><div class="article-body">{{ content }}</div></main>

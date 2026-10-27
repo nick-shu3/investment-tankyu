@@ -1,0 +1,9 @@
+{
+  "excluded_company_ids": [
+    "id-holdings"
+  ],
+  "excluded_tickers": [
+    "4709"
+  ],
+  "rule": "対象外指定銘柄は銘柄一覧、記事、カレンダー、図表、公開予定へ追加しない。変更には本人の明示的な承認を必要とする。"
+}

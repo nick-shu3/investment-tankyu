@@ -1,0 +1,16 @@
+title: 投資探究
+markdown: kramdown
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name.html
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+exclude:
+  - README.md
+url: "https://nick-shu3.github.io"
+baseurl: "/investment-tankyu"

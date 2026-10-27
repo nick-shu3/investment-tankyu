@@ -1,0 +1,6 @@
+[
+ {"id":"spacex","name":"SpaceX","ticker":"SPCX","description":"AI・Starlink・宇宙輸送"},
+ {"id":"tesla","name":"Tesla","ticker":"TSLA","description":"自動車・エネルギー"},
+ {"id":"takeda","name":"武田薬品工業","ticker":"4502","description":"医薬品"},
+ {"id":"fanuc","name":"ファナック","ticker":"6954","description":"FA・ロボット"}
+]

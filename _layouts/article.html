@@ -1,4 +1,6 @@
 ---
 layout: default
 ---
-<main id="main" class="wrap article"><a class="back-link" href="{{ '/' | relative_url }}">← 分析記事一覧へ</a><header class="article-head"><p class="eyebrow">SPACEX / EARNINGS RESEARCH / {{ page.period | escape }}</p><h1>{{ page.title | escape }}</h1><div class="article-meta"><span>決算発表 {{ page.announcement | escape }}</span><span>公開 {{ page.published | escape }}</span><span>改訂 {{ page.updated | default: page.published | escape }}</span></div><p class="muted">{{ page.review_status | escape }} · 株価評価：未実施</p></header><div class="article-body">{{ content }}</div></main>
+{% assign company = site.data.companies | where: 'id', page.company_id | first %}
+<main id="main" class="wrap article"><a class="back-link" href="{{ '/' | relative_url }}">← 分析記事一覧へ</a><header class="article-head"><p class="eyebrow">{{ company.name | escape }} / EARNINGS RESEARCH / {{ page.period | escape }}</p><h1>{{ page.title | escape }}</h1><div class="article-meta"><span>決算発表 {{ page.announcement | escape }}</span><span>公開 {{ page.published | escape }}</span><span>改訂 {{ page.updated | default: page.published | escape }}</span></div><p class="muted">{{ page.review_status | escape }} · 株価評価：未実施</p></header>{% if page.rating %}<aside class="policy"><strong>業績評価：{{ page.rating | escape }}</strong><p>評価日 {{ page.rating_date | escape }} · {{ page.rating_reason | escape }}</p></aside>{% endif %}<div class="article-body">{{ content }}</div></main>
+

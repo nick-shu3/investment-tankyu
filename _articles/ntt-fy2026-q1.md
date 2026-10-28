@@ -2,8 +2,8 @@
 title: "NTT 2027年3月期Q1決算｜増収増益の中身と投資・負債を検証"
 company_id: ntt
 period: FY2026-Q1
-published: "2026-10-28"
-updated: "2026-10-28"
+published: "2026-10-29"
+updated: "2026-10-29"
 announcement: "2026-08-06"
 review_status: 公式資料照合・AI分析
 rating: 好調

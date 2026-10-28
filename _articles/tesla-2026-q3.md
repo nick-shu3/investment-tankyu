@@ -103,4 +103,4 @@ Q3は営業利益718＋受取利息445−支払利息90−その他損益117−�
 - **T3：[Tesla Q3 Production, Deliveries & Deployments（2026年10月2日）](https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments)**。
 - **T4：[決算発表通知（2026年10月21日）](https://ir.tesla.com/press-release/tesla-releases-third-quarter-2026-financial-results)**、[公式IR決算一覧](https://ir.tesla.com/)：最新公表期・日付を確認。
 
-増減率＝（当期÷比較期−1）×100、利益率＝利益÷売上×100。小数1桁丸め。会社説明とAI分析を区別。2026年10月28日：初稿作成。公式資料との照合・計算検証を実施。公開前レビュー対象。
+増減率＝（当期÷比較期−1）×100、利益率＝利益÷売上×100。小数1桁丸め。会社説明とAI分析を区別。2026年10月28日：初稿作成。公式資料との照合・計算検証を実施。同日、公開前レビューを完了。公開承認に伴いレビュー状況の表記を更新。

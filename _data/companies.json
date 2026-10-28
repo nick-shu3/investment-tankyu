@@ -128,7 +128,16 @@
     "name": "オリックス",
     "ticker": "8591",
     "type": "日本株",
-    "description": "日本株"
+    "description": "金融・事業運営・投資を展開する多角的金融サービス",
+    "legal_name": "オリックス株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.orix.co.jp/grp/company/about/summary/",
+      "source": "https://www.orix.co.jp/grp/company/ir/stock/stock_info.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "mitsubishi-hc-capital",

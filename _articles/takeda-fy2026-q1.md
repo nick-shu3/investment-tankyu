@@ -95,7 +95,7 @@ K1 p.5〜7・K2によれば、ザソシチニブは6月に乾癬の比較第3相
 
 ### 利益の質
 
-営業利益201.4から税前利益162.7へ減少し、税金49.5、非支配持分等を経て親会社利益113.2となる（K1 p.20）。税前利益は前年150.6から増えたが、税金は26.4から49.5へ増え、最終減益となった。会社は繰延税金資産の回収可能性再評価、税額控除減少等を説明（p.12）。Core営業利益358.9とIFRS営業利益201.4の差には無形資産償却・減損・その他調整がある（付録A-4）。独自の調整利益を追加して収益力を断定しない。
+営業利益201.4から税前利益162.7へ減少し、税金49.5、非支配持分等を経て親会社利益113.2となる（K1 p.20）。税前利益は前年150.6から増えたが、税金は26.4から49.5へ増え、最終減益となった。会社は繰延税金資産の回収可能性再評価、税額控除減少等を説明（p.12）。Core営業利益358.9とIFRS営業利益201.4の差には無形資産償却・減損・その他調整がある（付録A-6）。独自の調整利益を追加して収益力を断定しない。
 
 ## 見通し・次回確認点
 
@@ -115,7 +115,7 @@ K1 p.5〜7・K2によれば、ザソシチニブは6月に乾癬の比較第3相
 
 ## 出典・計算方法・更新履歴
 
-- **K1：[FY2026 Q1 Quarterly Financial Report（2026年7月30日）](https://assets-dam.takeda.com/image/upload/v1785376662/Global/Investor/Financial-Results/FY2026/Q1/qr2026_q1_qfr_en.pdf)**：本文内ページ番号p.3〜27、48〜49、付録A-2・A-4・A-8・A-9。会計財務表の百万円を1,000で割り十億円へ換算。
+- **K1：[FY2026 Q1 Quarterly Financial Report（2026年7月30日）](https://assets-dam.takeda.com/image/upload/v1785376662/Global/Investor/Financial-Results/FY2026/Q1/qr2026_q1_qfr_en.pdf)**：本文内ページ番号p.3〜27、48〜49、付録A-2・A-6・A-8・A-9。会計財務表の百万円を1,000で割り十億円へ換算。
 - **K2：[2026年度第1四半期業績公表（2026年7月30日）](https://www.takeda.com/jp/newsroom/newsreleases/2026/takeda-reports-first-quarter-fy2026-results/)**：業績、予想据え置き、上市準備。
 - **K3：[公式決算資料一覧](https://www.takeda.com/jp/investors/financial-results/quarterly-results/)**、[公式IRイベント](https://www.takeda.com/jp/investors/events/)：2026年10月28日に最新公表期・次回日程を確認。
 

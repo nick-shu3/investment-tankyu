@@ -231,7 +231,16 @@
     "name": "KDDI",
     "ticker": "9433",
     "type": "日本株",
-    "description": "日本株"
+    "description": "通信、金融、エネルギー、法人向けIT等",
+    "legal_name": "KDDI株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://newsroom.kddi.com/ir-news/detail/kddi_ir-1210_4659.html",
+      "source": "https://www.kddi.com/corporate/ir/faq/",
+      "checked": "2026-10-29",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "j-power",

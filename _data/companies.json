@@ -135,7 +135,16 @@
     "name": "三菱HCキャピタル",
     "ticker": "8593",
     "type": "日本株",
-    "description": "日本株"
+    "description": "リース・ファイナンスと航空・物流・不動産等の資産運用",
+    "legal_name": "三菱ＨＣキャピタル株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.mitsubishi-hc-capital.com/corporate/overview.html",
+      "source": "https://www.mitsubishi-hc-capital.com/corporate/overview.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "tokio-marine",

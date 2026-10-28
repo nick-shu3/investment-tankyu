@@ -215,7 +215,16 @@
     "name": "NTT",
     "ticker": "9432",
     "type": "日本株",
-    "description": "日本株"
+    "description": "通信・ITサービス・データセンター・金融等を展開する持株会社",
+    "legal_name": "NTT株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://group.ntt/jp/corporate/overview/",
+      "source": "https://group.ntt/jp/ir/shares/digest.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "kddi",

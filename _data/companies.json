@@ -73,7 +73,16 @@
     "name": "三菱商事",
     "ticker": "8058",
     "type": "日本株",
-    "description": "日本株"
+    "description": "エネルギー・金属資源・生活産業等を展開する総合商社",
+    "legal_name": "三菱商事株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.mitsubishicorp.com/jp/ja/about/profile/",
+      "source": "https://www.mitsubishicorp.com/jp/ja/ir/library/earnings/pdf/202608j.pdf",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "mufg",

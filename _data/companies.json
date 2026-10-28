@@ -11,7 +11,16 @@
     "name": "アドバンス・レジデンス投資法人",
     "ticker": "3269",
     "type": "J-REIT",
-    "description": "J-REIT"
+    "description": "賃貸住宅特化型J-REIT（1月・7月決算）",
+    "legal_name": "アドバンス・レジデンス投資法人",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 不動産投資信託証券市場",
+      "name_source": "https://www.adr-reit.com/company/about/",
+      "source": "https://www.jpx.co.jp/equities/products/reits/issues/index.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "takeda",
@@ -32,7 +41,16 @@
     "name": "CYBERDYNE",
     "ticker": "7779",
     "type": "日本株",
-    "description": "日本株"
+    "description": "日本株",
+    "legal_name": "CYBERDYNE株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 グロース市場",
+      "name_source": "https://www.cyberdyne.jp/company/outline",
+      "source": "https://www.cyberdyne.jp/ir/stock",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "itochu",
@@ -53,21 +71,48 @@
     "name": "三菱UFJフィナンシャル・グループ",
     "ticker": "8306",
     "type": "日本株",
-    "description": "日本株"
+    "description": "日本株",
+    "legal_name": "株式会社三菱UFJフィナンシャル・グループ",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.mufg.jp/profile/overview/",
+      "source": "https://www.mufg.jp/ir/index.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "smfg",
     "name": "三井住友フィナンシャルグループ",
     "ticker": "8316",
     "type": "日本株",
-    "description": "日本株"
+    "description": "日本株",
+    "legal_name": "株式会社三井住友フィナンシャルグループ",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.smfg.co.jp/company/info/overview.html",
+      "source": "https://www.smfg.co.jp/investor/stock/overview.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "jaccs",
     "name": "ジャックス",
     "ticker": "8584",
     "type": "日本株",
-    "description": "日本株"
+    "description": "日本株",
+    "legal_name": "株式会社ジャックス",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.jaccs.co.jp/corporate/about/overview/",
+      "source": "https://www.jaccs.co.jp/corporate/ir/stock/stockinformation/",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "orix",
@@ -102,14 +147,32 @@
     "name": "九州旅客鉄道（JR九州）",
     "ticker": "9142",
     "type": "日本株",
-    "description": "日本株"
+    "description": "日本株",
+    "legal_name": "九州旅客鉄道株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.jrkyushu.co.jp/company/info/outline/",
+      "source": "https://www.jrkyushu.co.jp/company/ir/stock/outline/",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "ispace",
     "name": "ispace",
     "ticker": "9348",
     "type": "日本株",
-    "description": "日本株"
+    "description": "日本株",
+    "legal_name": "株式会社ispace",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 グロース市場",
+      "name_source": "https://www.ispace-inc.com/ja/company-jp/",
+      "source": "https://www.ispace-inc.com/ja/investor-relation-home-jp/stock-information-jp/",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "ntt",

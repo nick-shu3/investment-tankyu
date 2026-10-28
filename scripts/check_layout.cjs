@@ -38,6 +38,6 @@ const path = require('path');
       if(failed.length) throw Error(failed.join('\n'));
       await page.close();
     }
-    console.log('PASS: five pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus');
+    console.log(`PASS: ${articles.length + 1} pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus`);
   } finally { await browser.close(); server.close(); }
 })().catch(e=>{console.error(e);process.exit(1)});

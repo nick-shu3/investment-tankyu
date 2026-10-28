@@ -160,7 +160,16 @@
     "name": "東京海上ホールディングス",
     "ticker": "8766",
     "type": "日本株",
-    "description": "日本株"
+    "description": "国内外の損害保険・生命保険とソリューションを展開する保険持株会社",
+    "legal_name": "東京海上ホールディングス株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.tokiomarinehd.com/company/information/",
+      "source": "https://www.tokiomarinehd.com/ir/stock/information.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "daiwa-house-reit",

@@ -57,7 +57,16 @@
     "name": "伊藤忠商事",
     "ticker": "8001",
     "type": "日本株",
-    "description": "日本株"
+    "description": "生活消費分野・基礎産業等を展開する総合商社",
+    "legal_name": "伊藤忠商事株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.itochu.co.jp/ja/about/profile/",
+      "source": "https://www.itochu.co.jp/ja/ir/shareholder/info/index.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "mitsubishi-corp",

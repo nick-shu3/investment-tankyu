@@ -38,6 +38,14 @@ const path = require('path');
       if(failed.length) throw Error(failed.join('\n'));
       await page.close();
     }
+    const calendarPage = await browser.newPage({viewport:{width:390,height:900}});
+    await calendarPage.addInitScript(() => { const RealDate=Date; globalThis.Date=class extends RealDate { constructor(...args){super(...(args.length?args:['2035-01-01T00:00:00Z']));} static now(){return new RealDate('2035-01-01T00:00:00Z').valueOf();} }; });
+    await calendarPage.goto('http://127.0.0.1:8765/investment-tankyu/');
+    if (!await calendarPage.locator('#no-upcoming').isVisible()) throw Error('Past calendar should have no upcoming entries');
+    if (await calendarPage.locator('[data-preview-event]:visible').count()) throw Error('Past event appears upcoming');
+    const statuses=await calendarPage.locator('details [data-event-label]').allTextContents();
+    if (!statuses.length || statuses.some(v=>v!=='発表状況未確認')) throw Error('Past event must remain unconfirmed');
+    await calendarPage.close();
     console.log(`PASS: ${articles.length + 2} pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus`);
   } finally { await browser.close(); server.close(); }
 })().catch(e=>{console.error(e);process.exit(1)});

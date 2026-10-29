@@ -25,6 +25,30 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Check desktop and mobile layouts
         run: node scripts/check_layout.cjs
+      - name: Prepare temporary second-period fixture
+        run: |
+          python3 - <<'PYFIX'
+          from pathlib import Path
+          src=Path('_articles/takeda-fy2026-q1.md').read_text()
+          src=src.replace('period: FY2026-Q1', 'period: FY2026-Q2').replace('announcement: "2026-07-30"', 'announcement: "2099-01-01"').replace('title: "武田薬品工業', 'title: "検証用 武田薬品工業', 1)
+          Path('_articles/fixture-test.md').write_text(src)
+          PYFIX
+      - name: Build fixture site (no deployment)
+        uses: actions/jekyll-build-pages@v1
+        with:
+          destination: ./_site_fixture
+      - name: Check temporary company history
+        run: |
+          python3 - <<'PYFIX'
+          from pathlib import Path
+          page=Path('_site_fixture/companies.html').read_text()
+          start=page.index('id="company-takeda"')
+          part=page[start:page.index('</section>', start)]
+          assert part.index('/articles/fixture-test.html') < part.index('/articles/takeda-fy2026-q1.html')
+          assert '/articles/takeda-fy2026-q1.html' in Path('_site_fixture/articles/fixture-test.html').read_text()
+          print('PASS: temporary second-period ordering and related-article link')
+          PYFIX
+          rm _articles/fixture-test.md
       - name: Save review screenshots
         if: always()
         uses: actions/upload-artifact@v4

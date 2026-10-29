@@ -37,7 +37,12 @@ companies=json.loads((root/'_data/companies.json').read_text())
 article_files=list((root/'_articles').glob('*.md'))
 company_ids={re.search(r'^company_id: (.+)$',p.read_text(),re.M)[1] for p in article_files}
 assert company_ids <= {c['id'] for c in companies}
-assert len(re.findall('class="archive-item"',home))==len(article_files)
+assert len(re.findall('class="archive-item"',home))==min(3,len(article_files))
+listing=(site/'companies.html').read_text()
+for path in article_files:
+    assert '/articles/'+path.stem+'.html' in listing, f'Missing company history: {path}'
+for company in companies:
+    assert 'id="company-'+company['id']+'"' in listing, f'Missing company anchor: {company["id"]}'
 assert home.count('class="status">更新予定')==len(companies)-len(company_ids)
 for path in article_files:
     dest=site/'articles'/(path.stem+'.html')

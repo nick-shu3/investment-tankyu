@@ -22,8 +22,8 @@ const path = require('path');
       const page = await browser.newPage({viewport:{width,height:900}});
       const failed=[];
       page.on('response', r=>{if(r.status()>=400) failed.push(`${r.status()} ${r.url()}`)});
-      for (const slug of ['index',...articles.map(f=>f.slice(0,-3))]) {
-        await page.goto('http://127.0.0.1:8765/investment-tankyu/'+(slug==='index'?'':'articles/'+slug+'.html'));
+      for (const slug of ['index','companies',...articles.map(f=>f.slice(0,-3))]) {
+        await page.goto('http://127.0.0.1:8765/investment-tankyu/'+(slug==='index'?'':slug==='companies'?'companies.html':'articles/'+slug+'.html'));
         await page.evaluate(()=>document.fonts.ready);
         const overflow = await page.evaluate(()=>document.documentElement.scrollWidth > innerWidth+1);
         if (overflow) throw Error(`Page overflow: ${width} ${slug}`);
@@ -38,6 +38,6 @@ const path = require('path');
       if(failed.length) throw Error(failed.join('\n'));
       await page.close();
     }
-    console.log(`PASS: ${articles.length + 1} pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus`);
+    console.log(`PASS: ${articles.length + 2} pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus`);
   } finally { await browser.close(); server.close(); }
 })().catch(e=>{console.error(e);process.exit(1)});

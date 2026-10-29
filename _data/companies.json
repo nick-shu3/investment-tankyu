@@ -280,5 +280,21 @@
     "ticker": "SPCX",
     "type": "米国株",
     "description": "米国株"
+  },
+  {
+    "id": "kabu-peace",
+    "name": "カブ＆ピース（カブアンド）",
+    "ticker": "非上場",
+    "type": "非上場企業",
+    "description": "生活インフラ関連サービス",
+    "legal_name": "株式会社カブ＆ピース",
+    "listing": {
+      "status": "unlisted",
+      "market": "非上場",
+      "name_source": "https://kabu-peace.co.jp/",
+      "source": "https://static.kabu-peace.co.jp/public/semi-annualreport2.pdf",
+      "checked": "2026-10-29",
+      "scope": "2026年10月29日時点。上場は未承認。"
+    }
   }
 ]

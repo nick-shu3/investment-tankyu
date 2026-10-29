@@ -80,7 +80,7 @@
       "market": "東京証券取引所 プライム市場",
       "name_source": "https://www.mitsubishicorp.com/jp/ja/about/profile/",
       "source": "https://www.mitsubishicorp.com/jp/ja/ir/library/earnings/pdf/202608j.pdf",
-      "checked": "2026-10-28",
+      "checked": "2026-10-29",
       "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
     }
   },
@@ -137,21 +137,48 @@
     "name": "オリックス",
     "ticker": "8591",
     "type": "日本株",
-    "description": "日本株"
+    "description": "金融・事業運営・投資を展開する多角的金融サービス",
+    "legal_name": "オリックス株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.orix.co.jp/grp/company/about/summary/",
+      "source": "https://www.orix.co.jp/grp/company/ir/stock/stock_info.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "mitsubishi-hc-capital",
     "name": "三菱HCキャピタル",
     "ticker": "8593",
     "type": "日本株",
-    "description": "日本株"
+    "description": "リース・ファイナンスと航空・物流・不動産等の資産運用",
+    "legal_name": "三菱ＨＣキャピタル株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.mitsubishi-hc-capital.com/corporate/overview.html",
+      "source": "https://www.mitsubishi-hc-capital.com/corporate/overview.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "tokio-marine",
     "name": "東京海上ホールディングス",
     "ticker": "8766",
     "type": "日本株",
-    "description": "日本株"
+    "description": "国内外の損害保険・生命保険とソリューションを展開する保険持株会社",
+    "legal_name": "東京海上ホールディングス株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.tokiomarinehd.com/company/information/",
+      "source": "https://www.tokiomarinehd.com/ir/stock/information.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "daiwa-house-reit",
@@ -197,21 +224,48 @@
     "name": "NTT",
     "ticker": "9432",
     "type": "日本株",
-    "description": "日本株"
+    "description": "通信・ITサービス・データセンター・金融等を展開する持株会社",
+    "legal_name": "NTT株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://group.ntt/jp/corporate/overview/",
+      "source": "https://group.ntt/jp/ir/shares/digest.html",
+      "checked": "2026-10-28",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "kddi",
     "name": "KDDI",
     "ticker": "9433",
     "type": "日本株",
-    "description": "日本株"
+    "description": "通信、金融、エネルギー、法人向けIT等",
+    "legal_name": "KDDI株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://newsroom.kddi.com/ir-news/detail/kddi_ir-1210_4659.html",
+      "source": "https://www.kddi.com/corporate/ir/faq/",
+      "checked": "2026-10-29",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "j-power",
     "name": "電源開発（J-POWER）",
     "ticker": "9513",
     "type": "日本株",
-    "description": "日本株"
+    "description": "国内発電・送変電と海外電力事業",
+    "legal_name": "電源開発株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.jpower.co.jp/company_info/about/data.html",
+      "source": "https://www.jpower.co.jp/ir/stock/procedures.html",
+      "checked": "2026-10-29",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "tesla",

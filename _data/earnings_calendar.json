@@ -136,9 +136,11 @@
     },
     {
       "company_id": "mitsubishi-hc-capital",
-      "status": "unknown",
-      "source": "https://www.mitsubishi-hc-capital.com/english/investors/calendar.html",
-      "note": "次回の年月日を確認できず。年間の一般的な発表月は確定日として扱いません。",
+      "date": "2026-11-12",
+      "period": "2027年3月期第2四半期",
+      "source": "https://www.mitsubishi-hc-capital.com/investors/calendar.html",
+      "status": "scheduled",
+      "note": "公式IRページが読み込む日程データで確認。発表時刻は未確認。",
       "checked": "2026-10-28"
     },
     {

@@ -6,3 +6,5 @@
 [hidden]{display:none!important}.spotlight{margin-top:40px}.company-entry{padding:16px 0;border-top:1px solid var(--border)}.company-entry h3{margin:0}.company-entry li{margin:10px 0}.company-entry p{margin:8px 0}.company-back{display:inline-block;margin-left:18px}.table-hint{font-size:13px;color:var(--muted);margin-top:28px}.calendar-pending summary{cursor:pointer}.calendar-pending .calendar-list{padding:0}.calendar-pending .calendar-list li{margin:0}.calendar-label{font-weight:600}@media(max-width:700px){.company-back{display:block;margin:8px 0 0}.calendar-pending .calendar-list li{grid-template-columns:1fr;gap:4px}.calendar-pending .calendar-list li>div:last-child{grid-column:auto}}
 
 .article-body table:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+
+.company-shortcuts ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}.company-shortcuts li a{display:inline-block;padding:6px 10px;border:1px solid var(--border);border-radius:7px;text-decoration:none;font-size:13px}.company-shortcuts li a:hover{background:var(--panel)}

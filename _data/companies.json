@@ -247,7 +247,16 @@
     "name": "電源開発（J-POWER）",
     "ticker": "9513",
     "type": "日本株",
-    "description": "日本株"
+    "description": "国内発電・送変電と海外電力事業",
+    "legal_name": "電源開発株式会社",
+    "listing": {
+      "status": "listed",
+      "market": "東京証券取引所 プライム市場",
+      "name_source": "https://www.jpower.co.jp/company_info/about/data.html",
+      "source": "https://www.jpower.co.jp/ir/stock/procedures.html",
+      "checked": "2026-10-29",
+      "scope": "国内の主要上場市場。海外・重複上場市場の網羅一覧ではない。"
+    }
   },
   {
     "id": "tesla",

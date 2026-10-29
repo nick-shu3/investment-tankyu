@@ -176,6 +176,15 @@
       "status": "fund",
       "note": "ETF。企業の決算発表日と、ファンドの決算・分配関連日程を混在させないため別扱い。",
       "checked": "2026-10-28"
+    },
+    {
+      "company_id": "kabu-peace",
+      "date": "",
+      "period": "2027年1月期 通期",
+      "source": "https://kabu-peace.co.jp/ir",
+      "time": "",
+      "status": "unknown",
+      "checked": "2026-10-29"
     }
   ]
 }

@@ -1,0 +1,8 @@
+---
+layout: default
+title: 研究対象企業・決算履歴
+permalink: /companies.html
+---
+<main id="main" class="wrap home"><p><a href="{{ '/' | relative_url }}">← トップへ</a></p><h1>研究対象企業・決算履歴</h1><p>企業ごとに決算発表日順で掲載しています。同日の場合は記事URLの順で表示します。評価は各記事の評価日時点のものです。</p>
+<nav aria-label="企業一覧" class="company-shortcuts"><h2>企業名から探す</h2><ul>{% for company in site.data.companies %}<li><a href="#company-{{ company.id | escape }}">{{ company.name | escape }} <small>{{ company.ticker | escape }}</small></a></li>{% endfor %}</ul></nav>
+{% assign types = '日本株,米国株,ETF,J-REIT' | split: ',' %}{% for type in types %}<section><h2>{{ type }}</h2>{% for company in site.data.companies %}{% if company.type == type %}{% assign company_articles = site.articles | where: 'company_id', company.id | sort: 'url' | sort: 'announcement' | reverse %}{% assign events = site.data.earnings_calendar.events | where: 'company_id', company.id %}<section class="company-entry" id="company-{{ company.id | escape }}"><h3>{{ company.name | escape }} <small>{{ company.ticker | escape }}</small></h3>{% if company_articles.size > 0 %}<p>最新の決算分析</p><ul>{% for article in company_articles %}<li><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a><br><small>対象 {{ article.period | escape }} · 発表 {{ article.announcement | escape }} · 業績評価 {{ article.rating | default: '未評価' | escape }}（{{ article.rating_date | escape }}）</small></li>{% endfor %}</ul>{% else %}<p class="muted">分析記事は未掲載です。</p>{% endif %}{% if events.size > 0 %}<p><a href="{{ '/#calendar' | relative_url }}">決算予定・確認状況を見る →</a></p>{% endif %}</section>{% endif %}{% endfor %}</section>{% endfor %}</main>

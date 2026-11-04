@@ -47,6 +47,10 @@ assert home.count('class="status">更新予定')==len(companies)-len(company_ids
 for path in article_files:
     dest=site/'articles'/(path.stem+'.html')
     assert dest in pages and '業績評価：' in dest.read_text(), path
+for path in (root/'_columns').glob('*.md'):
+    dest=site/'columns'/(path.stem+'.html')
+    assert dest in pages, f'Missing column page: {path}'
+    assert '/columns/'+path.stem+'.html' in home, f'Missing column link: {path}'
 for p in pages:
     assert not re.search(r'IDホールディングス|id-holdings|(?<!\d)4709(?!\d)',p.read_text()), p
 print(f'PASS: Jekyll output, internal links/fragments/CSS, {len(companies)} companies / {len(article_files)} articles / {len(companies)-len(company_ids)} planned, exclusions')

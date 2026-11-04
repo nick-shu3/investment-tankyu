@@ -4,12 +4,20 @@ collections:
   articles:
     output: true
     permalink: /articles/:name.html
+  columns:
+    output: true
+    permalink: /columns/:name.html
 defaults:
   - scope:
       path: ""
       type: articles
     values:
       layout: article
+  - scope:
+      path: ""
+      type: columns
+    values:
+      layout: column
 exclude:
   - README.md
   - AGENTS.md

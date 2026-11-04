@@ -36,7 +36,7 @@ for event in calendar['events']:
     if event.get('time'):
         assert 'JST' in event['time'], '日本時間を明記'
 assert seen == ids, 'カレンダーの対象銘柄に漏れ'
-for article in (root / '_articles').glob('*.md'):
+for article in list((root / '_articles').glob('*.md')) + list((root / '_columns').glob('*.md')):
     body = article.read_text()
     assert not re.search(r'IDホールディングス|id-holdings|(?<!\d)4709(?!\d)', body), f'対象外銘柄の公開記事: {article.name}'
 print(f'PASS: 公開{len(companies)}銘柄、日付付き{sum(e["status"] == "scheduled" for e in calendar["events"])}件、除外ポリシー・参照・日付・時刻を確認')

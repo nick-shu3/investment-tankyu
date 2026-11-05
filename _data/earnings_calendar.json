@@ -49,11 +49,9 @@
     },
     {
       "company_id": "jaccs",
-      "date": "2026-11-05",
-      "period": "2027年3月期 第2四半期",
+      "status": "unknown",
       "source": "https://www.jaccs.co.jp/corporate/ir/calender/",
-      "time": "",
-      "status": "scheduled",
+      "note": "2026年11月5日の中間決算発表を確認。次回の決算発表日時は未確認。11月11日は説明会。",
       "checked": "2026-11-05"
     },
     {

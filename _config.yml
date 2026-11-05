@@ -22,5 +22,6 @@ exclude:
   - README.md
   - AGENTS.md
   - scripts
+  - docs
 url: "https://nick-shu3.github.io"
 baseurl: "/investment-tankyu"

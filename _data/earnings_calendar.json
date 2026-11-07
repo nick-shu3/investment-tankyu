@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-07",
   "events": [
     {
       "company_id": "takeda",
@@ -56,12 +56,10 @@
     },
     {
       "company_id": "kddi",
-      "date": "2026-11-06",
-      "period": "2027年3月期 第2四半期",
-      "source": "https://newsroom.kddi.com/ir-news/detail/kddi_ir-1235_4748.html",
-      "time": "",
-      "status": "scheduled",
-      "checked": "2026-10-28"
+      "status": "unknown",
+      "source": "https://newsroom.kddi.com/ir-news/detail/kddi_ir-1251_4778.html",
+      "note": "2026年11月6日の中間決算発表を確認。次回の発表日時は未確認。",
+      "checked": "2026-11-07"
     },
     {
       "company_id": "orix",

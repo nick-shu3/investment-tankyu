@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-10",
   "events": [
     {
       "company_id": "takeda",
@@ -63,12 +63,10 @@
     },
     {
       "company_id": "orix",
-      "date": "2026-11-09",
-      "period": "2027年3月期 第2四半期",
-      "source": "https://www.orix.co.jp/grp/company/ir/calendar/",
-      "time": "",
-      "status": "scheduled",
-      "checked": "2026-10-28"
+      "status": "unknown",
+      "source": "https://www.orix.co.jp/grp/company/ir/library/financial_result/",
+      "note": "2026年11月9日の中間決算発表を確認。次回決算発表日時は未確認。",
+      "checked": "2026-11-10"
     },
     {
       "company_id": "cyberdyne",

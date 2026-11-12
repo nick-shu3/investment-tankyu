@@ -75,7 +75,7 @@
       "source": "https://cyberdyne.jp/ir",
       "time": "15:30 JST（予定）",
       "status": "scheduled",
-      "checked": "2026-10-28"
+      "checked": "2026-11-12"
     },
     {
       "company_id": "mufg",
@@ -84,7 +84,7 @@
       "source": "https://www.mufg.jp/ir/index.html",
       "time": "",
       "status": "scheduled",
-      "checked": "2026-10-28"
+      "checked": "2026-11-12"
     },
     {
       "company_id": "smfg",
@@ -93,16 +93,17 @@
       "source": "https://www.smfg.co.jp/investor/calendar/",
       "time": "",
       "status": "scheduled",
-      "checked": "2026-10-28"
+      "checked": "2026-11-12"
     },
     {
       "company_id": "tokio-marine",
-      "month": "2026-11",
       "period": "2026年度第2四半期",
-      "source": "https://www.tokiomarinehd.com/ir/event/calendar.html",
-      "status": "month_only",
-      "note": "公式カレンダーは11月と記載。日付は未確認。",
-      "checked": "2026-10-28"
+      "source": "https://www.tokiomarinehd.com/ir/",
+      "status": "scheduled",
+      "note": "公式IRトップの検索結果に11月19日16:30予定と表示。動的表示のため本文では直接確認できず、公開前に再確認。",
+      "checked": "2026-11-12",
+      "date": "2026-11-19",
+      "time": "16:30 JST（予定）"
     },
     {
       "company_id": "advance-residence",

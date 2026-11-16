@@ -8,3 +8,6 @@
 .article-body table:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
 
 .company-shortcuts ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}.company-shortcuts li a{display:inline-block;padding:6px 10px;border:1px solid var(--border);border-radius:7px;text-decoration:none;font-size:13px}.company-shortcuts li a:hover{background:var(--panel)}
+
+/* Recent publication and revision records, generated from Markdown dates. */
+.update-note{font-size:12px}.update-list{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--border)}.update-item{display:grid;grid-template-columns:230px minmax(0,1fr);align-items:baseline;gap:8px 20px;padding:12px 0;border-bottom:1px solid var(--border)}.update-meta{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;font-size:11px;color:var(--muted)}.update-meta time{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ink)}.update-status{border:1px solid var(--border);border-radius:4px;padding:0 6px;color:var(--ink)}.update-item>a{min-width:0;font-size:14px;line-height:1.7;overflow-wrap:anywhere}@media(max-width:700px){.update-item{grid-template-columns:1fr;gap:5px}.update-item>a{font-size:13px}}

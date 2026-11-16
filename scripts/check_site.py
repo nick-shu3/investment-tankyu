@@ -51,6 +51,33 @@ for path in (root/'_columns').glob('*.md'):
     dest=site/'columns'/(path.stem+'.html')
     assert dest in pages, f'Missing column page: {path}'
     assert '/columns/'+path.stem+'.html' in home, f'Missing column link: {path}'
+documents = {}
+for folder, route in (('_articles', 'articles'), ('_columns', 'columns')):
+    for path in (root/folder).glob('*.md'):
+        front = path.read_text().split('---', 2)[1]
+        dates = {key: re.search(r'^'+key+r': "(\d{4}-\d{2}-\d{2})"$', front, re.M)[1]
+                 for key in ('published', 'updated')}
+        documents[f'{base}/{route}/{path.stem}.html'] = (dates, route)
+updates = re.findall(r'<li class="update-item">(.*?)</li>', home, re.S)
+assert len(updates) == min(5, len(documents)), 'Missing recent update records'
+assert home.index('id="updates"') < home.index('id="archive"'), 'Updates must precede the archive'
+rendered_dates = []
+rendered_links = []
+for record in updates:
+    link = re.search(r'<a href="([^"]+)"', record)[1]
+    date = re.search(r'<time datetime="([^"]+)"', record)[1]
+    assert link in documents, f'Unknown update record: {link}'
+    dates, route = documents[link]
+    assert date == dates['updated'], f'Stale update date: {link}'
+    assert ('改訂' if dates['updated'] > dates['published'] else '新規公開') in record, f'Wrong update status: {link}'
+    assert ('コラム' if route == 'columns' else '決算分析') in record, f'Wrong document type: {link}'
+    rendered_dates.append(date)
+    rendered_links.append(link)
+assert len(set(rendered_links)) == len(rendered_links), 'Duplicate update records'
+assert rendered_dates == sorted(rendered_dates, reverse=True), 'Updates are not in revision-date order'
+latest = max((dates['updated'], dates['published']) for dates, _ in documents.values())
+assert (rendered_dates[0], documents[rendered_links[0]][0]['published']) == latest, 'Newest publication/revision is missing'
+print('PASS: recent records include current publication/revision dates, types and article links')
 for p in pages:
     assert not re.search(r'IDホールディングス|id-holdings|(?<!\d)4709(?!\d)',p.read_text()), p
 print(f'PASS: Jekyll output, internal links/fragments/CSS, {len(companies)} companies / {len(article_files)} articles / {len(companies)-len(company_ids)} planned, exclusions')

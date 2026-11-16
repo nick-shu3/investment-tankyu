@@ -1,0 +1,15 @@
+{% assign recent_updates = site.articles | concat: site.columns | sort: 'url' | sort: 'published' | sort: 'updated' | reverse %}
+<section id="updates" aria-labelledby="updates-title">
+  <div class="section-head"><h2 id="updates-title">更新記録</h2><span class="muted">記事・コラムの追加と改訂</span></div>
+  <p class="muted update-note">各記事の最新の公開・改訂日から直近5件を表示。詳しい変更内容は記事内の更新履歴をご確認ください。</p>
+  <ul class="update-list">
+    {% for entry in recent_updates limit:5 %}
+    {% assign update_date = entry.updated | date: '%Y-%m-%d' %}
+    {% assign publish_date = entry.published | date: '%Y-%m-%d' %}
+    <li class="update-item">
+      <div class="update-meta"><time datetime="{{ update_date }}">{{ update_date }}</time><span class="update-status">{% if update_date > publish_date %}改訂{% else %}新規公開{% endif %}</span><span>{% if entry.collection == 'columns' %}コラム{% else %}決算分析{% endif %}</span></div>
+      <a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

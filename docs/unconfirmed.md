@@ -147,7 +147,20 @@
 - 次の確認先：会社の補足IR・費用調整の説明、経産省・SBIR計画認可、NASA個別発注、次回財務諸表・公式IRカレンダー。
 - 根拠：[短信](https://d2xlcgjnpyakn4.cloudfront.net/wp-content/uploads/2026/11/JP%E7%9F%AD%E4%BF%A1.pdf) p.1・6〜13、[説明資料](https://d2xlcgjnpyakn4.cloudfront.net/wp-content/uploads/2026/11/JP_2027%E5%B9%B43%E6%9C%88%E6%9C%9FQ2_%E6%B1%BA%E7%AE%97%E8%AA%AC%E6%98%8E%E8%B3%87%E6%96%99.pdf) p.18・23・25〜30、[半期報告書](https://d2xlcgjnpyakn4.cloudfront.net/wp-content/uploads/2026/11/2027%E5%B9%B43%E6%9C%88%E6%9C%9F-%E5%8D%8A%E6%9C%9F%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf) p.11・20〜22（いずれも2026年11月13日）、[NASA発表](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/)（2026年11月7日）。
 
+## CYBERDYNE｜2027年3月期中間決算
+
+関連記事：[中間決算分析](../_articles/cyberdyne-fy2026-q2.md)、[前回Q1](../_articles/cyberdyne-fy2026-q1.md)
+
+- 状態：一部確認
+- 最終確認日：2026年11月18日
+- 確認済み：上期CF、レベル3金融資産17,144百万円、期末保有資産の未実現損益変動300百万円、CEJのファンド損益−229と外部持分振替＋237を確認。上期の定期預金預入240百万円を確認したが、Q1の「その他」と同一取引との直接注記は未確認。ドイツ初例治療とCyvis商用開始も確認。
+- 未確認：金融収益の完全な実現・未実現等の内訳、治療回数・単価・拠点稼働率、R&D費用減の継続性、新製品別契約・収益、SIPの当年度収益と実入金、レンタル・無形資産を含む全事業投資のFCF、Pegasus未払込額・キャピタルコール日程、11月16日説明会のQ&A・開催実績、次回決算日時、株価評価。
+- 次の確認先：追加補足資料・公式説明会資料、財務諸表の金融商品・CF注記、治療・製品契約・臨床開発の公式発表、公式IR予定。試験下の保険償還と一般診療への全面適用、ファンド損益と外部持分振替、評価額と現金を分ける。
+- 根拠：[短信](https://www.cyberdyne.jp/media/29122/20261112_kessantanshin_jp.pdf)添付p.4〜8・12、[説明資料](https://www.cyberdyne.jp/media/29123/20261112_kessanhosokusetsumei_jpn.pdf)p.3〜6・14・24、[半期報告書](https://www.cyberdyne.jp/media/29125/20261112_qr.pdf)p.26〜28。いずれも2026年11月12日。
+
 ## 更新履歴
+
+- 2026年11月18日：CYBERDYNEの公正価値・CEJ内訳と上期CFを確認し、事業採算・資金配分・Q&A等の未確認事項を追加。
 
 - 2026年11月18日：ispaceの上期CF・9月借入実行を確認し、M3認可・個別受注・資金日程・費用調整等の未確認事項を追加。
 

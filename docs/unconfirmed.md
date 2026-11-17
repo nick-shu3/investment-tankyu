@@ -134,7 +134,22 @@
 - 継続監視：引当戻入と新規与信費用の内訳、海外・消費者金融・データセンターの信用リスク、還元後の資本・LCR。異なる管理範囲・基準日のエクスポージャーを割って厳密な構成比にしない。
 - 根拠：[短信](https://www.mufg.jp/dam/ir/fs/2026/pdf/summary2609_ja.pdf) PDF p.1・3・13、[説明会資料](https://www.mufg.jp/dam/ir/presentation/2026/pdf/slides2609_ja.pdf) p.7〜9、[KM1](https://www.mufg.jp/dam/ir/report/basel3/2027-2q/pdf/mufg2609_09_ja.pdf) p.2、[LCR](https://www.mufg.jp/dam/ir/report/basel3/2027-2q/pdf/mufg2609_08_ja.pdf) p.1。短信11月13日、説明会資料11月17日、流動性PDFは公表日記載なし・11月18日確認。
 
+## ispace｜2027年3月期中間決算
+
+関連記事：[中間決算分析](../_articles/ispace-fy2026-q2.md)、[前回Q1](../_articles/ispace-fy2026-q1.md)
+
+- 状態：一部確認
+- 最終確認日：2026年11月18日
+- 確認済み：11月13日の上期CFと半期報告書を照合。前回未確認だった静岡銀行30億円借入は9月30日実行。補助金11.06億円は営業CF受取・BS前受金で、年度末の営業外収益計上予定と区別。11月PDR完了とNASA CLPS 2の主契約者選定は期末後の進展。
+- 未確認：M3の2028年計画変更の正式認可、CDR・高度認識対策の検証結果、ミッション別の総原価・支払と補助金入金の具体的日程、CLPS 2の個別タスクオーダー受注、CP-12終了の最終手続き、次回決算発表日時、株価評価。Q1 CF未作成につきQ2単独CFも未算定。
+- 表示調整の未確認点：説明資料p.27の「売上原価（減損除く）」2,001百万円と、財務諸表の売上原価5,776.606から半期報告書p.22の前渡金評価損3,658.785を引いた2,117.821百万円との橋渡し。換算・調整範囲等を推測せず、独自の正常利益を算定しない。
+- 継続監視：純資産と年度末の制限条項、追加調達の実行・金利・希薄化、下期の売上と年度末補助金計上。NASAの10年・合計上限100億米ドルはispaceの受注残と扱わない。NTT協業も確定売上と扱わない。
+- 次の確認先：会社の補足IR・費用調整の説明、経産省・SBIR計画認可、NASA個別発注、次回財務諸表・公式IRカレンダー。
+- 根拠：[短信](https://d2xlcgjnpyakn4.cloudfront.net/wp-content/uploads/2026/11/JP%E7%9F%AD%E4%BF%A1.pdf) p.1・6〜13、[説明資料](https://d2xlcgjnpyakn4.cloudfront.net/wp-content/uploads/2026/11/JP_2027%E5%B9%B43%E6%9C%88%E6%9C%9FQ2_%E6%B1%BA%E7%AE%97%E8%AA%AC%E6%98%8E%E8%B3%87%E6%96%99.pdf) p.18・23・25〜30、[半期報告書](https://d2xlcgjnpyakn4.cloudfront.net/wp-content/uploads/2026/11/2027%E5%B9%B43%E6%9C%88%E6%9C%9F-%E5%8D%8A%E6%9C%9F%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf) p.11・20〜22（いずれも2026年11月13日）、[NASA発表](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/)（2026年11月7日）。
+
 ## 更新履歴
+
+- 2026年11月18日：ispaceの上期CF・9月借入実行を確認し、M3認可・個別受注・資金日程・費用調整等の未確認事項を追加。
 
 - 2026年11月18日：MUFGの上期分析に伴いLCRを照合し、CF・9月末NSFR・還元進捗等の未確認事項を追加。
 

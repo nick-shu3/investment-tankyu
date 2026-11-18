@@ -5,7 +5,7 @@ period: FY2026-Q2
 published: "2026-11-18"
 updated: "2026-11-18"
 announcement: "2026-11-13"
-review_status: 公式資料照合・AI分析（公開承認待ち）
+review_status: 公式資料照合・AI分析
 rating: 好調
 rating_date: "2026-11-18"
 rating_reason: 国内の金利・貸出・手数料で業務純益が拡大し、通期予想・配当も上方修正。一方、Q2単独減益、海外採算、信用費用増と資本の低下を監視する。

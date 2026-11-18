@@ -207,3 +207,15 @@
 - 次の確認先：楽天証券の追加公式告知・調査結果・FAQ・機能案内。IPOの申込・購入手続きと停止設定の関係は商品・手続き段階ごとに確認し、一律に断定しない。個別通知の原本・口座情報・資産情報は台帳や履歴に記録しない。
 - 根拠：[楽天証券11月17日付告知](https://www.rakuten-sec.co.jp/web/info/info20261117-02.html)、[利用停止の公式案内](https://www.rakuten-sec.co.jp/web/security/account_lock/)、[ITmedia NEWS 11月18日17時40分付](https://www.itmedia.co.jp/news/article/2611/18/2000003302/)。
 - 履歴：2026年11月18日、コラム初公開に合わせ追跡項目を追加。会社公式の別の追加発表は今回の検索範囲では確認できず。
+
+## Anthropic｜IPO申込みに関する話題追記
+
+関連記事：[Anthropic IPOコラム](../_columns/anthropic-ipo-20261116.md)
+
+- 状態：一部確認
+- 最終確認日：2026年11月18日
+- 確認済み：PC WatchとKAI-YOUの同日付報道が伊織もえさんのIPO申込みと2,250株の申込画面を紹介。投稿URLは報道掲載リンクとユーザー提供URLで一致。SECの11月17日付S-1/A表紙で想定価格70〜78ドルを確認。
+- 未確認：X上の原文・添付画像の直接照合、本人の最終割当株数・支払額、最終公開価格。申込みを購入済みと扱わず、約2,800万円を確定支払額としない。
+- 次の確認先：[投稿](https://x.com/iorimoe_five/status/2122926452228469234)、[SEC資料](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm)、会社公式IPO資料と取扱証券会社の正式条件。人物の資産総額・非公開の保有情報を推測・収集しない。
+- 根拠：[PC Watch](https://pc.watch.impress.co.jp/docs/news/yajiuma/2157539.html)（11月18日16時58分）、[KAI-YOU](https://kai-you.net/article/97192)（同17時59分）。日本時間。
+- 履歴：2026年11月18日、話題追記に合わせ登録。既存の11月16日付業績分析全体の再検証とは区別。

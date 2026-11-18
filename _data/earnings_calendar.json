@@ -1,14 +1,15 @@
 {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-18",
   "events": [
     {
       "company_id": "takeda",
       "date": "2027-01-28",
       "period": "2026年度第3四半期",
-      "source": "https://www.takeda.com/jp/investors/events/",
+      "source": "https://www.takeda.com/investors/events/",
       "time": "",
       "status": "scheduled",
-      "checked": "2026-10-29"
+      "checked": "2026-11-18",
+      "note": "公式英語IRイベントで2027年1月28日のQ3発表予定を再確認。発表時刻は未確認。"
     },
     {
       "company_id": "j-power",
@@ -17,7 +18,7 @@
       "source": "https://www.jpower.co.jp/ir/calendar.html",
       "status": "month_only",
       "note": "公式IRカレンダーは2027年1月と記載。日付・時刻は未確認。",
-      "checked": "2026-11-05"
+      "checked": "2026-11-18"
     },
     {
       "company_id": "itochu",
@@ -70,40 +71,37 @@
     },
     {
       "company_id": "cyberdyne",
-      "date": "2026-11-12",
-      "period": "2027年3月期 第2四半期",
-      "source": "https://cyberdyne.jp/ir",
-      "time": "15:30 JST（予定）",
-      "status": "scheduled",
-      "checked": "2026-11-12"
+      "period": "次回決算",
+      "source": "https://www.cyberdyne.jp/media/29122/20261112_kessantanshin_jp.pdf",
+      "status": "unknown",
+      "checked": "2026-11-18",
+      "note": "2026年11月12日の中間決算公表を公式決算資料で確認済み。次回の発表日時は未確認。日付経過だけで公表済みと判断していない。"
     },
     {
       "company_id": "mufg",
-      "date": "2026-11-13",
-      "period": "2027年3月期 中間期（日本基準）",
-      "source": "https://www.mufg.jp/ir/index.html",
-      "time": "",
-      "status": "scheduled",
-      "checked": "2026-11-12"
+      "period": "次回決算",
+      "source": "https://www.mufg.jp/dam/ir/fs/2026/pdf/summary2609_ja.pdf",
+      "status": "unknown",
+      "checked": "2026-11-18",
+      "note": "2026年11月13日の中間決算公表を公式決算資料で確認済み。次回の発表日時は未確認。日付経過だけで公表済みと判断していない。"
     },
     {
       "company_id": "smfg",
-      "date": "2026-11-13",
-      "period": "2026年度第2四半期（中間期）",
+      "period": "2026年度第3四半期",
       "source": "https://www.smfg.co.jp/investor/calendar/",
-      "time": "",
-      "status": "scheduled",
-      "checked": "2026-11-12"
+      "status": "month_only",
+      "checked": "2026-11-18",
+      "month": "2027-01",
+      "note": "公式IRカレンダーは2027年1月下旬予定。11月13日の中間決算は公表済み。11月19日は投資家説明会であり次回決算発表日ではない。"
     },
     {
       "company_id": "tokio-marine",
+      "month": "2026-11",
       "period": "2026年度第2四半期",
-      "source": "https://www.tokiomarinehd.com/ir/",
-      "status": "scheduled",
-      "note": "公式IRトップの検索結果に11月19日16:30予定と表示。動的表示のため本文では直接確認できず、公開前に再確認。",
-      "checked": "2026-11-12",
-      "date": "2026-11-19",
-      "time": "16:30 JST（予定）"
+      "source": "https://www.tokiomarinehd.com/ir/event/calendar.html",
+      "status": "month_only",
+      "note": "2026年度の公式カレンダーでは11月のみ確認。11月19日は同ページの2025年度欄であり、2026年度の確定日として採用しない。時刻も未確認。",
+      "checked": "2026-11-18"
     },
     {
       "company_id": "advance-residence",
@@ -112,7 +110,7 @@
       "source": "https://www.adr-reit.com/ir/calendar/",
       "status": "month_only",
       "note": "公式カレンダーは2027年3月と記載。日付は未確認。",
-      "checked": "2026-10-28"
+      "checked": "2026-11-18"
     },
     {
       "company_id": "fanuc",
@@ -123,19 +121,18 @@
     },
     {
       "company_id": "mitsubishi-hc-capital",
-      "date": "2026-11-12",
-      "period": "2027年3月期第2四半期",
+      "period": "次回決算",
       "source": "https://www.mitsubishi-hc-capital.com/investors/calendar.html",
-      "status": "scheduled",
-      "note": "公式IRページが読み込む日程データで確認。発表時刻は未確認。",
-      "checked": "2026-10-28"
+      "status": "unknown",
+      "note": "2026年11月12日の中間決算公表を公式決算資料で確認済み。次回の発表日時は未確認。日付経過だけで公表済みと判断していない。",
+      "checked": "2026-11-18"
     },
     {
       "company_id": "ispace",
       "status": "unknown",
       "source": "https://www.ispace-inc.com/ja/investor-relation-home-jp/ir-calendar-jp/",
-      "note": "公式カレンダーで次回発表日の記載を確認できず。",
-      "checked": "2026-10-28"
+      "note": "11月13日公表の中間決算と11月16日掲載の説明会書き起こしを確認済み。次回決算発表日時は未確認。",
+      "checked": "2026-11-18"
     },
     {
       "company_id": "daiwa-house-reit",
@@ -173,5 +170,6 @@
       "status": "unknown",
       "checked": "2026-10-29"
     }
-  ]
+  ],
+  "review_note": "一部銘柄を再確認した最終更新日です。全22銘柄を同日に再調査したものではありません。各行の確認日を参照してください。"
 }

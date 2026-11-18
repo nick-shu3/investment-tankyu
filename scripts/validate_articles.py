@@ -28,3 +28,16 @@ for path in sorted((root / '_articles').glob('*.md')):
     assert not re.search(r'AKIA[0-9A-Z]{16}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN .*PRIVATE KEY', path.read_text()), path
     print(f'PASS: {path.name} / {meta["rating"]} / {meta["rating_date"]}')
 print(f'PASS: {len(seen)} unique earnings articles')
+columns = sorted((root / '_columns').glob('*.md'))
+for path in columns:
+    parts = path.read_text().split('---', 2)
+    assert len(parts) == 3 and not parts[0].strip(), path
+    meta = dict(re.findall(r'^([a-z_]+):\s*([^\n]+)$', parts[1], re.M))
+    assert {'title', 'published', 'updated', 'summary'} <= meta.keys(), f'{path.name}: missing column metadata'
+    for key in ('published', 'updated'):
+        assert re.fullmatch(r'"\d{4}-\d{2}-\d{2}"', meta[key].strip()), f'{path.name}: quote {key} as YYYY-MM-DD'
+    published = dt.date.fromisoformat(meta['published'].strip().strip('"'))
+    updated = dt.date.fromisoformat(meta['updated'].strip().strip('"'))
+    assert published <= updated, f'{path.name}: update before publication'
+    assert '更新履歴' in parts[2] and 'https://' in parts[2], f'{path.name}: missing history or source'
+print(f'PASS: {len(columns)} columns with publication/revision dates and histories')

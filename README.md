@@ -24,7 +24,7 @@
 
 Settings → Pages → Deploy from a branch → main / (root)。baseurlは `/investment-tankyu`。
 
-ローカルでJekyllが利用できる場合は `jekyll build --baseurl /investment-tankyu`。公開後はトップ・記事・CSS・目次・出典を確認し、スマートフォンで表以外に横はみ出しがないこと、キーボードでリンクへ移動できることを確認します。
+ローカルでのビルドと表示検証は、下記の「Pull Requestの検証」を参照してください。公開後はトップ・記事・CSS・目次・出典を確認し、スマートフォンで表以外に横はみ出しがないこと、キーボードでリンクへ移動できることを確認します。
 
 公開リポジトリでは全ファイルと変更履歴を閲覧できます。個人の保有数量、取得単価、損益、資産額、取引履歴、非公開メモを登録しないでください。
 
@@ -34,7 +34,7 @@ Settings → Pages → Deploy from a branch → main / (root)。baseurlは `/inv
 
 IDホールディングス（4709、id-holdings）は公開対象外です。再追加は本人による明示的な方針変更がない限り禁止します。保有リストの受領や全銘柄の一括更新依頼だけでは、この除外を解除しません。銘柄一覧、記事、更新予定、決算カレンダー、図表の全てが対象です。機械可読の除外指定は `_data/publication_policy.json` で管理します。
 
-更新・公開前に `python3 scripts/validate_publication.py` を必ず実行してください。
+更新・公開前に `python3 scripts/check.py` を必ず実行してください。
 
 ## 決算カレンダー
 
@@ -92,7 +92,11 @@ ETFは企業決算の営業利益・業績格付けを流用せず、基準価�
 
 ## Pull Requestの検証
 
-`python3 scripts/validate_publication.py` と `python3 scripts/validate_articles.py` を実行します。PRの `Research and Jekyll checks` はJekyllビルド、生成HTMLの相互リンク・アンカー・CSS・動的件数、390px/1280pxの横はみ出し・HTTPエラー・表見出し・キーボードフォーカスを検証します。画面画像はActionsの `research-preview` artifactで確認できます。このworkflowにデプロイ処理はありません。公開方式は従来のmainブランチからのGitHub Pagesを維持します。
+最初に `python3 -m pip install -r scripts/requirements.txt` を実行します。`python3 scripts/check.py` で公開ポリシーと記事メタデータを検証します。
+
+Jekyll と Node.js が使える環境では、`npm install --no-save --package-lock=false playwright` と `npx playwright install chromium` でブラウザー検証を準備し、`python3 scripts/check.py --full` を実行すると、ビルドと生成ページの検証まで行えます。
+
+PRの `Research and Jekyll checks` はJekyllビルド、生成HTMLの相互リンク・アンカー・CSS・動的件数、390px/1280pxの横はみ出し・HTTPエラー・表見出し・キーボードフォーカスを検証します。CI では GitHub Pages 用のビルド後に `python3 scripts/check.py --built-site` を使用し、同一企業の複数期の表示も別途確認します。画面画像はActionsの `research-preview` artifactで確認できます。このworkflowにデプロイ処理はありません。公開方式は従来のmainブランチからのGitHub Pagesを維持します。
 
 自動検証は数値が公式開示と一致することや実質的な非公開情報の不存在を保証しません。公式PDF・SEC表の期間・単位・定義と照合し、独自計算と本人コメントを手動レビューしてください。外部出典へのアクセスや未公表の次回日程など、未確認事項は記事内で明示します。
 

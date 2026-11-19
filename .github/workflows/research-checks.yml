@@ -9,22 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - name: Publication policy and article metadata
         run: |
-          python3 scripts/validate_publication.py
-          python3 scripts/validate_articles.py
+          python3 -m pip install -r scripts/requirements.txt
+          python3 scripts/check.py
       - name: Build Jekyll (no deployment)
         uses: actions/jekyll-build-pages@v1
         with:
           destination: ./_site
-      - name: Check generated pages and local links
-        run: python3 scripts/check_site.py
       - name: Install browser test dependencies
         run: |
           npm install --no-save --package-lock=false playwright
           npx playwright install --with-deps chromium
-      - name: Check desktop and mobile layouts
-        run: node scripts/check_layout.cjs
+      - name: Check generated pages and desktop and mobile layouts
+        run: python3 scripts/check.py --built-site
       - name: Prepare temporary second-period fixture
         run: |
           python3 - <<'PYFIX'

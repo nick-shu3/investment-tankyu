@@ -1,0 +1,12 @@
+---
+layout: default
+title: 投資コラム一覧
+description: 投資探究で公開している投資コラムの一覧。公開日順で過去記事まで探せます。
+---
+<main id="main" class="wrap home">
+  <section class="intro"><p class="eyebrow">INVESTMENT COLUMNS / ARCHIVE</p><h1>投資コラム一覧</h1><p class="muted">市場・経済・企業ニュースを公開資料と報道から整理したコラムです。公開日の新しい順に掲載しています。</p><p><a href="{{ '/' | relative_url }}">← トップページへ戻る</a></p></section>
+  {% assign columns = site.columns | sort: 'published' | reverse %}
+  <section aria-labelledby="all-columns-title"><div class="section-head"><h2 id="all-columns-title">すべてのコラム</h2><span class="muted">{{ columns.size }} 件</span></div>
+  {% for column in columns %}<a class="column-item" href="{{ column.url | relative_url }}"><h3>{{ column.title | escape }}</h3><p>{{ column.summary | escape }}</p><small>公開 {{ column.published | escape }}</small></a>{% endfor %}
+  </section>
+</main>

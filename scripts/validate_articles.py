@@ -34,6 +34,9 @@ for path in columns:
     assert len(parts) == 3 and not parts[0].strip(), path
     meta = dict(re.findall(r'^([a-z_]+):\s*([^\n]+)$', parts[1], re.M))
     assert {'title', 'published', 'updated', 'summary'} <= meta.keys(), f'{path.name}: missing column metadata'
+    if 'company_id' in meta:
+        cid = meta['company_id'].strip().strip(chr(34))
+        assert cid in ids, f'{path.name}: unknown company_id {cid}'
     for key in ('published', 'updated'):
         assert re.fullmatch(r'"\d{4}-\d{2}-\d{2}"', meta[key].strip()), f'{path.name}: quote {key} as YYYY-MM-DD'
     published = dt.date.fromisoformat(meta['published'].strip().strip('"'))
@@ -41,3 +44,4 @@ for path in columns:
     assert published <= updated, f'{path.name}: update before publication'
     assert '更新履歴' in parts[2] and 'https://' in parts[2], f'{path.name}: missing history or source'
 print(f'PASS: {len(columns)} columns with publication/revision dates and histories')
+

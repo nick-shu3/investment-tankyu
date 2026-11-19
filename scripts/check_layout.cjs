@@ -19,11 +19,12 @@ const path = require('path');
     fs.mkdirSync('qa-screenshots',{recursive:true});
     const articles = fs.readdirSync('_articles').filter(f=>f.endsWith('.md'));
     const columns = fs.readdirSync('_columns').filter(f=>f.endsWith('.md'));
+    const researchPages = JSON.parse(fs.readFileSync('_data/companies.json','utf8')).filter(c=>c.research_url).map(c=>c.research_url.replace(/^\//,'').replace(/\.html$/,''));
     for (const width of [390,1280]) {
       const page = await browser.newPage({viewport:{width,height:900}});
       const failed=[];
       page.on('response', r=>{if(r.status()>=400) failed.push(`${r.status()} ${r.url()}`)});
-      for (const slug of ['index','companies',...articles.map(f=>'articles/'+f.slice(0,-3)),...columns.map(f=>'columns/'+f.slice(0,-3))]) {
+      for (const slug of ['index','companies',...researchPages,...articles.map(f=>'articles/'+f.slice(0,-3)),...columns.map(f=>'columns/'+f.slice(0,-3))]) {
         await page.goto('http://127.0.0.1:8765/investment-tankyu/'+(slug==='index'?'':slug==='companies'?'companies.html':slug+'.html'));
         await page.evaluate(()=>document.fonts.ready);
         const overflow = await page.evaluate(()=>document.documentElement.scrollWidth > innerWidth+1);
@@ -47,6 +48,7 @@ const path = require('path');
     const statuses=await calendarPage.locator('details [data-event-label]').allTextContents();
     if (!statuses.length || statuses.some(v=>v!=='発表状況未確認')) throw Error('Past event must remain unconfirmed');
     await calendarPage.close();
-    console.log(`PASS: ${articles.length + columns.length + 2} pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus`);
+    console.log(`PASS: ${articles.length + columns.length + researchPages.length + 2} pages at 390px and 1280px; no page overflow, no HTTP errors, table headers and keyboard focus`);
   } finally { await browser.close(); server.close(); }
 })().catch(e=>{console.error(e);process.exit(1)});
+

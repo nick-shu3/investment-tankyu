@@ -296,5 +296,22 @@
       "checked": "2026-10-29",
       "scope": "2026年10月29日時点。上場は未承認。"
     }
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "legal_name": "Anthropic, PBC",
+    "ticker": "ANT",
+    "type": "米国株",
+    "description": "Claude・企業向けAI・開発者向け製品。長期監視対象。",
+    "research_url": "/companies/anthropic.html",
+    "listing": {
+      "status": "scheduled",
+      "market": "NASDAQ Global Select Market",
+      "source": "https://nasdaqtrader.com/TraderNews.aspx?id=DTN2026-28",
+      "name_source": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "checked": "2026-11-19",
+      "scope": "米国2026年11月19日の上場・取引開始予定。確認時点では取引開始の実績は未確認。"
+    }
   }
 ]

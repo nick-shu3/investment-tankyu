@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "events": [
     {
       "company_id": "takeda",
@@ -169,7 +169,15 @@
       "time": "",
       "status": "unknown",
       "checked": "2026-10-29"
+    },
+    {
+      "company_id": "anthropic",
+      "period": "次回決算",
+      "status": "unknown",
+      "source": "https://ipo.anthropic.com/",
+      "checked": "2026-11-19",
+      "note": "IPO資料の2026年9月末までの業績を確認。次回決算発表日時は未確認。米国発表日時と日本時間を区別し、推測日付を登録しない。"
     }
   ],
-  "review_note": "一部銘柄を再確認した最終更新日です。全22銘柄を同日に再調査したものではありません。各行の確認日を参照してください。"
+  "review_note": "Anthropicを11月19日に追加した部分更新です。全銘柄を同日に再調査したものではありません。各行の確認日を参照してください。"
 }

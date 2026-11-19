@@ -43,6 +43,17 @@ for path in article_files:
     assert '/articles/'+path.stem+'.html' in listing, f'Missing company history: {path}'
 for company in companies:
     assert 'id="company-'+company['id']+'"' in listing, f'Missing company anchor: {company["id"]}'
+    if company.get('research_url'):
+        route = company['research_url']
+        assert base+route in listing, f'Missing research link: {company["id"]}'
+        research = site/route.lstrip('/')
+        assert research in pages, f'Missing research page: {route}'
+        for folder, url_folder in (('_articles', 'articles'), ('_columns', 'columns')):
+            for source in (root/folder).glob('*.md'):
+                if re.search(r'^company_id: '+re.escape(company['id'])+r'$', source.read_text(), re.M):
+                    url = base+'/'+url_folder+'/'+source.stem+'.html'
+                    assert url in research.read_text(), f'Missing research history: {source}'
+                    assert base+route in (site/url_folder/(source.stem+'.html')).read_text(), f'Missing research backlink: {source}'
 assert home.count('class="status">更新予定')==len(companies)-len(company_ids)
 for path in article_files:
     dest=site/'articles'/(path.stem+'.html')
@@ -81,3 +92,4 @@ print('PASS: recent records include current publication/revision dates, types an
 for p in pages:
     assert not re.search(r'IDホールディングス|id-holdings|(?<!\d)4709(?!\d)',p.read_text()), p
 print(f'PASS: Jekyll output, internal links/fragments/CSS, {len(companies)} companies / {len(article_files)} articles / {len(companies)-len(company_ids)} planned, exclusions')
+

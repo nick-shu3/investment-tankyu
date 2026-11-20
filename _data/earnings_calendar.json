@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "events": [
     {
       "company_id": "takeda",
@@ -96,12 +96,11 @@
     },
     {
       "company_id": "tokio-marine",
-      "month": "2026-11",
-      "period": "2026年度第2四半期",
-      "source": "https://www.tokiomarinehd.com/ir/event/calendar.html",
-      "status": "month_only",
-      "note": "2026年度の公式カレンダーでは11月のみ確認。11月19日は同ページの2025年度欄であり、2026年度の確定日として採用しない。時刻も未確認。",
-      "checked": "2026-11-18"
+      "period": "次回決算",
+      "source": "https://www.tokiomarinehd.com/ir/event/presentation/2026/",
+      "status": "unknown",
+      "note": "2026年11月19日の中間決算公表を公式資料で確認。次回の決算発表日時は未確認。中間決算を今後の予定として残さない。",
+      "checked": "2026-11-20"
     },
     {
       "company_id": "advance-residence",
@@ -174,10 +173,10 @@
       "company_id": "anthropic",
       "period": "次回決算",
       "status": "unknown",
-      "source": "https://ipo.anthropic.com/",
-      "checked": "2026-11-19",
-      "note": "IPO資料の2026年9月末までの業績を確認。次回決算発表日時は未確認。米国発表日時と日本時間を区別し、推測日付を登録しない。"
+      "source": "https://investor.anthropic.com/sec-filings/default.aspx",
+      "checked": "2026-11-20",
+      "note": "11月19日の上場を報道で確認。IR提出資料一覧を検索結果で確認したが、次回決算発表日時は未確認。推測日付は登録しない。"
     }
   ],
-  "review_note": "Anthropicを11月19日に追加した部分更新です。全銘柄を同日に再調査したものではありません。各行の確認日を参照してください。"
+  "review_note": "2026年11月20日は東京海上HDとAnthropicを部分更新。全銘柄の予定を同日に再調査したものではありません。各行の確認日を参照してください。"
 }

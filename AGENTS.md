@@ -2,7 +2,7 @@
 
 IDホールディングス（4709 / id-holdings）は公開対象外。本人が明示的に除外を解除しない限り、一覧、分析記事、決算カレンダー、図表、公開予定へ追加しない。保有リストや一括更新依頼は解除の承認ではない。
 
-変更前に `_data/publication_policy.json` を読む。公開前に `python3 scripts/validate_publication.py` を実行する。非公開の保有数量、取得価格、損益、資産額、取引履歴は登録禁止。
+変更前に `_data/publication_policy.json` を読む。公開前に `python3 scripts/check.py` を実行する。依存関係と表示検証の手順は README の「Pull Requestの検証」を参照する。非公開の保有数量、取得価格、損益、資産額、取引履歴は登録禁止。
 
 2026年11月19日の本人による明示指定・公開承認に限り、`_columns/anthropic-ipo-long-term-20261119.md` に今回指定されたAnthropic IPOの投資記録を掲載できる。この例外は他の銘柄・取引・口座残高へ拡張しない。個人の取引記録は企業データ・カレンダー・未確認事項台帳へ重複登録しない。
 

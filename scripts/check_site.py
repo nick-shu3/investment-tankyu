@@ -58,10 +58,25 @@ assert home.count('class="status">更新予定')==len(companies)-len(company_ids
 for path in article_files:
     dest=site/'articles'/(path.stem+'.html')
     assert dest in pages and '業績評価：' in dest.read_text(), path
-for path in (root/'_columns').glob('*.md'):
+column_files = list((root/'_columns').glob('*.md'))
+column_archive = (site/'columns.html').read_text()
+column_section = home[home.index('<section id="columns">'):]
+column_section = column_section[:column_section.index('</section>')]
+assert base+'/columns.html' in column_section, 'Missing complete column archive link'
+home_column_links = re.findall(r'<a class="column-item" href="([^"]+)"', column_section)
+assert len(home_column_links) == min(5, len(column_files)), 'Wrong number of recent columns'
+assert len(set(home_column_links)) == len(home_column_links), 'Duplicate recent columns'
+column_dates = {}
+for path in column_files:
     dest=site/'columns'/(path.stem+'.html')
     assert dest in pages, f'Missing column page: {path}'
-    assert '/columns/'+path.stem+'.html' in home, f'Missing column link: {path}'
+    route = base+'/columns/'+path.stem+'.html'
+    assert route in column_archive, f'Missing column archive link: {path}'
+    column_dates[route] = re.search(r'^published: "(\d{4}-\d{2}-\d{2})"$', path.read_text(), re.M)[1]
+assert len(re.findall('class="column-item"', column_archive)) == len(column_files), 'Incomplete column archive'
+assert all(link in column_dates for link in home_column_links), 'Unknown recent column'
+recent_dates = [column_dates[link] for link in home_column_links]
+assert recent_dates == sorted(column_dates.values(), reverse=True)[:5], 'Recent columns are not the newest publications'
 documents = {}
 for folder, route in (('_articles', 'articles'), ('_columns', 'columns')):
     for path in (root/folder).glob('*.md'):
@@ -92,4 +107,5 @@ print('PASS: recent records include current publication/revision dates, types an
 for p in pages:
     assert not re.search(r'IDホールディングス|id-holdings|(?<!\d)4709(?!\d)',p.read_text()), p
 print(f'PASS: Jekyll output, internal links/fragments/CSS, {len(companies)} companies / {len(article_files)} articles / {len(companies)-len(company_ids)} planned, exclusions')
+
 

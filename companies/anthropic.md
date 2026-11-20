@@ -11,11 +11,13 @@ permalink: /companies/anthropic.html
 
 # Anthropic（ANT）の長期監視
 
-**確認基準日：2026年11月19日（日本時間）／監視状況：初回の投資仮説・財務基準を設定。**
+**確認基準日：2026年11月20日（日本時間）／監視状況：上場初日の取引を報道で確認。長期投資仮説は維持。**
 
-Claudeの企業・開発者向け需要が、継続的な利益と現金創出につながるかを追う。株価評価は未実施。NASDAQでの11月19日の取引開始は予定として確認しており、実際の取引開始・初値は未確認。
+Claudeの企業・開発者向け需要が、継続的な利益と現金創出につながるかを追う。株価評価は未実施。11月19日のNASDAQ取引開始はReutersの当日報道で確認した。初値111.50ドル、通常取引終値97.17ドルは報道に基づく市場データで、会社の財務開示とは区別する。価格変動だけでは事業仮説を変更せず、株価影響の要因別寄与は保留する。
 
 [IPO当選と長期投資分析を読む]({{ '/columns/anthropic-ipo-long-term-20261119.html' | relative_url }})
+
+[上場初日の検証を読む]({{ "/columns/anthropic-ipo-first-day-20261120.html" | relative_url }}) · [調査・更新ルール](https://github.com/nick-shu3/investment-tankyu/blob/main/docs/anthropic-research-rules.md)
 
 ## 投資仮説と反証条件
 
@@ -59,14 +61,17 @@ Claudeの企業・開発者向け需要が、継続的な利益と現金創出�
 
 最終条件での基本・完全希薄化後株数、時価総額・PSR、会社定義FCF、製品別収益性、ロックアップ条件を継続確認する。**次回決算発表日時は未確認。** [決算カレンダー]({{ '/#calendar' | relative_url }})でも確認状況を表示する。
 
-監視方針を登録したもので、自動巡回・通知を設定したものではない。資料確認時に手動で更新する。
+このページは公開資料の確認結果を手動で反映する。ページ表示自体には自動巡回・通知の機能はなく、別の監視運用の調査ログや個人の取引情報は掲載しない。
 
 ## 出典・更新履歴
 
 [会社価格決定発表（米国11月18日）](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)、[Nasdaq Trader](https://nasdaqtrader.com/TraderNews.aspx?id=DTN2026-28)、[SEC S-1/A第3次修正（11月17日）](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm)。11月19日確認。製品・財務・投資仮説の出典は各記事に記載。
+
+2026年11月20日：[Reutersの上場初日報道](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/)（米国11月19日、確認11月20日）に基づき、取引開始・初値の未確認表示を更新。監視8指標のうち⑧株価変動に対応し、長期仮説は維持、株価評価は未実施。新たな個人取引は記載していない。
 
 2026年11月19日：本人承認に基づき長期監視ページを新設。IPO記事と初回財務記事、今後の重要ニュースを集約する構成で公開。
 
 個人の投資記録と公開資料に基づく研究であり、投資助言・売買推奨ではありません。
 
 </main>
+

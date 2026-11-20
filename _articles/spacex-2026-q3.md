@@ -3,7 +3,7 @@ title: "SpaceX 2026年Q3決算｜成長のSI、利益のConnectivity、投資の
 company_id: spacex
 period: 2026-Q3
 published: "2026-10-28"
-updated: "2026-10-28"
+updated: "2026-11-20"
 announcement: "2026-10-20"
 review_status: 公式資料照合・AI分析
 rating: 好調
@@ -166,6 +166,10 @@ S1の全ロケット合計35回を、Starshipの打ち上げ回数として使�
 
 **次回決算予定：未確認。** 公式発表を確認後、決算カレンダーへ反映する。
 
+## 期末後の重要ニュース（2026年11月20日追記）
+
+11月4日のQualcomm公式発表で、Starlink Mobileの地上5G網を2027年から展開する計画を確認した。Flight 15の上段回収に関する報道と確認上の留意点も、[重要ニュースの分析]({{ '/columns/spacex-starlink-mobile-20261120.html' | relative_url }})へまとめた。これらはQ3末後の情報であり、本記事の四半期売上・利益・CFへ加算しない。決算に対する10月28日の業績評価は保持する。
+
 <h2 id="sources">出典・計算方法</h2>
 
 - **S1：[SpaceX 2026年Q3決算発表資料（SEC Exhibit 99.1）](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm)**（2026年10月20日発表）：主要業績、事業別データ、損益計算書、貸借対照表、CF計算書、買収、指標定義。
@@ -179,3 +183,6 @@ S1の全ロケット合計35回を、Starshipの打ち上げ回数として使�
 
 
 - 2026年10月28日：公式資料と再照合し、業績評価・EPS・前四半期比較・通期見通しの確認状況を追加。未提供の本人コメント欄を削除。
+
+
+- 2026年11月20日：期末後の地上5G網計画・Flight 15の確認記事への導線を追加。Q3決算値と評価日は維持。

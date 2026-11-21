@@ -8,7 +8,7 @@ summary: "海外データセンター課税発言と11月20日のAI株急落を�
 
 > 情報基準日：2026年11月21日（日本時間）。市場データは米国11月20日の通常取引終値。**公開日は仮置きであり、実際の公開時に修正する。** 本稿は投資助言・売買推奨ではありません。筆者はAnthropic株式を保有しており、経済的利害があります。
 
-2026年11月20日、米国株式市場でAI関連株が大きく売られた。NASDAQ総合指数は5.3%下落。NVIDIAは13.8%安、AMDは13.3%安、前日に上場したAnthropic（NASDAQ: ANT）も8.5%下落した。市場にはAI投資の採算性への懸念があり、そこへトランプ大統領の海外データセンター課税発言が加わった。だが、今回の下落を発言だけで説明することはできない。
+2026年11月20日、米国株式市場でAI関連株が大きく売られた。NASDAQ総合指数は5.3%下落。NVIDIAは13.8%安、AMDは13.3%安、前日に上場したAnthropic（NASDAQ: ANT）も約9%下落した。市場にはAI投資の採算性への懸念があり、そこへトランプ大統領の海外データセンター課税発言が加わった。だが、今回の下落を発言だけで説明することはできない。
 
 [Anthropic上場初日の検証]({{ '/columns/anthropic-ipo-first-day-20261120.html' | relative_url }}) · [Anthropic長期監視]({{ '/companies/anthropic.html' | relative_url }})
 
@@ -26,9 +26,9 @@ summary: "海外データセンター課税発言と11月20日のAI株急落を�
 | AMD | −13.3% |
 | Micron | −13.9% |
 | Broadcom | −12.1% |
-| Anthropic | −8.5% |
+| Anthropic | 約−9% |
 
-出典：AP通信、11月20日。［3］
+出典：Reuters、Los Angeles Times（AP通信配信）、11月20日。数値は各媒体の丸め方による。［3、4］
 
 NASDAQ総合指数は年初来の上昇分を失い、S&P 500は10月の高値から10%以上下落して調整局面に入った。考えられる要因は、AI設備投資の採算性への疑問、高い成長期待を織り込んだ株価の再評価、そして海外データセンター政策の不透明感だ。AI株の売りは発言前から始まっており、**発言による下落寄与度は特定できない**。［3、4］
 
@@ -77,11 +77,11 @@ AIの需要が拡大しても、そのための設備投資が膨らみ、競争
 
 ## 出典・未確認事項・更新履歴
 
-1. [Reuters：海外データセンター課税発言（2026年11月20日）](https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/)
+1. [Reuters：海外データセンター課税発言（2026年11月20日、転載）](https://www.investing.com/news/world-news/trump-says-us-to-penalize-firms-building-data-centers-abroad-5042390)
 2. [AP通信：トランプ大統領の発言と制度の不明点（2026年11月20日）](https://abcnews.com/Technology/wireStory/trump-plans-penalize-us-tech-companies-build-ai-138323831)
-3. [AP通信：米国株式市場の急落（2026年11月20日）](https://apnews.com/article/c4c3f4878b12989347f8a930ed813dad)
-4. [Reuters：NASDAQ急落とAI株の再評価（2026年11月20日）](https://www.investing.com/news/stock-market-news/nasdaq-plunges-5-a-day-after-anthropic-debut-but-investors-still-believe-in-ai-5042641)
+3. [Reuters：米国株式市場の急落（2026年11月20日、転載）](https://www.investing.com/news/stock-market-news/nasdaq-plunges-5-a-day-after-anthropic-debut-but-investors-still-believe-in-ai-5042641)
+4. [Los Angeles Times：AI関連株の急落（2026年11月20日、AP通信配信）](https://www.latimes.com/business/story/2026-11-20/nasdaq-goes-negative-for-year-tech-stocks-slammed-by-ai-swoon)
 
 **未確認事項：** 正式な課税制度、対象企業、適用開始時期、Anthropicの契約への影響、株価下落の要因別寄与度。次の確認先はホワイトハウス、関係省庁、AnthropicのIR・SEC開示、主要クラウド事業者の発表。
 
-**更新履歴：** 2026年11月21日、初稿作成（未公開）。
+**更新履歴：** 2026年11月21日、初稿作成（未公開）。同日、Reuters・AP通信配信記事の照合に基づき、出典リンクとAnthropic騰落率の表記を修正。

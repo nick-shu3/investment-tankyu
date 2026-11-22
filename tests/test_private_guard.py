@@ -81,6 +81,15 @@ class GuardTests(unittest.TestCase):
         self.commit()
         self.assertFalse(self.check())
 
+    def test_markdown_id_and_filename(self):
+        self.write("_articles/demo.md", "---\\ncompany_id: demo-company\\n---\\n")
+        self.commit()
+        self.assertFalse(self.check())
+        self.write("_articles/demo.md", "# Safe")
+        self.write("_articles/7381.md", "# Safe")
+        self.commit()
+        self.assertFalse(self.check())
+
     def test_timestamp_not_ticker(self):
         self.write("_articles/demo.md", "2026-11-22T07:38:10.7381Z\n")
         self.commit()

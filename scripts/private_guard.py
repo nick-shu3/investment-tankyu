@@ -66,6 +66,12 @@ def forbidden(value, field, policy):
         return s in policy["ids"]
     if field == "ticker":
         return s in policy["tickers"]
+    if any(re.search(r"(?<![a-z0-9])" + re.escape(identifier) + r"(?![a-z0-9])", s)
+           for identifier in policy["ids"]):
+        return True
+    if field == "path" and any(re.search(r"(?<![0-9])" + re.escape(ticker) + r"(?![0-9])", s)
+           for ticker in policy["tickers"]):
+        return True
     if any(name in s for name in policy["names"]):
         return True
     # Standalone numeric tokens in free text are not proof of a ticker.
@@ -121,7 +127,7 @@ def scan(repo, sha, policy):
         if kind != "blob" or mode not in ("100644", "100755"):
             raise Denied()  # symlink, gitlink and unexpected object types
         normalized_path = normalize(path)
-        if forbidden(normalized_path, "text", policy):
+        if forbidden(normalized_path, "path", policy):
             raise Denied()
         if not path.startswith(FILE_SCOPE) and path not in ("README.md",):
             continue

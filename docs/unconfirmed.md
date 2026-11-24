@@ -1,6 +1,6 @@
 # 未確認事項台帳
 
-最終更新：2026年11月21日
+最終更新：2026年11月24日
 
 決算記事・コラムに関する重要な未確認事項を手動で管理する。この記事一覧は全記事の網羅的な監査結果ではない。発表予定日を過ぎただけで確認済みとしない。会社説明・事実・独自分析を区別し、出典で確認できない数値を補わない。
 
@@ -316,3 +316,19 @@
 - 次の確認機会：SEC最終目論見書・引受団関連開示、Nasdaq市場データ、次回Anthropic公式決算・IR。
 - 根拠：[Reuters（2026年11月20日）](https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/)、[Anthropic公式IPO完了発表](https://www.anthropic.com/news/ipo-close)。取引詳細は報道に基づき、一次資料の直接照合は未了。
 - 履歴：2026年11月22日、コラム作業ブランチで追跡項目を追加。公開・マージ前。
+
+
+## NVIDIA｜CEO復帰と独立調査の継続
+
+関連記事：[継続確認コラム](../_columns/nvidia-governance-investigation-20261110.md)
+
+- 状態：一部確認
+- 最終確認日：2026年11月24日（日本時間）
+- 確認済み：11月23日付会社発表でCEO・社長・取締役への復帰、全会一致、独立調査継続、CCO人選開始を確認。11月17日の国家安全保障・輸出管理監督委員会設置を確認。退任8-Kは11月11日の辞任受理、復帰8-Kは11月22日の復帰を記載し、会社の公表日はそれぞれ12日・23日。原文を直接照合した。
+- 未確認：発効時刻と日付表記差の理由、独立調査の最終結果・範囲・公表日、情報流出・法令違反・処分の正式な認定、政府調査・照会の全体像、統治強化の実効性、CCOの就任、11月23日の時点をそろえた株価検証、株価評価。
+- 次の確認先：会社追加声明、SECの8-K・10-Q、関係当局の正式発表、委員会・CCOの人事。経営復帰を調査終了や包括的な安全認定と扱わない。Q3決算は11月17日公表済みであり、当該コラムでは公表確認にとどめる。
+- 根拠：[会社復帰発表](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)、[復帰8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm)、[退任8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm)、[監督委員会設置](https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee)。
+
+### 2026年11月24日の更新記録
+
+NVIDIAのCEO人事と調査の確認状態を追加。ほかの銘柄の確認日や未確認項目は変更していない。

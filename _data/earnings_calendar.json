@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-25",
   "events": [
     {
       "company_id": "takeda",
@@ -24,50 +24,50 @@
       "company_id": "itochu",
       "status": "unknown",
       "source": "https://www.itochu.co.jp/ja/ir/calendar/2026/index.html",
-      "note": "2026年11月4日の第2四半期決算発表を確認。次回の発表日時は今回未確認。",
-      "checked": "2026-11-05"
+      "note": "公式2026年IRカレンダーで11月4日のQ2公表を再確認。取得範囲では次回発表日時は未確認。2027年の日付を過去の発表から推測しない。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "mitsubishi-corp",
       "status": "unknown",
-      "source": "https://www.mitsubishicorp.com/jp/ja/news/release/2026/20261104001.html",
-      "note": "2026年11月4日の第2四半期決算発表を確認。次回の発表日時は今回未確認。",
-      "checked": "2026-11-05"
+      "source": "https://www.mitsubishicorp.com/jp/ja/ir/event/",
+      "note": "公式IRカレンダーで11月4日のQ2公表を再確認。年間図の2月上旬は一般的な時期であり、2027年の確定日として登録しない。次回日時は未確認。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "ntt",
       "status": "unknown",
-      "source": "https://group.ntt/jp/ir/library/latest/",
-      "note": "2026年11月4日の第2四半期決算発表を確認。次回の発表日時は今回未確認。",
-      "checked": "2026-11-05"
+      "source": "https://group.ntt/jp/ir/shares/calendar/",
+      "note": "公式IR・株式カレンダーを再取得したが、取得本文から次回決算日時を確認できず。未公表と断定せず、追加確認を継続する。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "jr-kyushu",
       "status": "unknown",
-      "source": "https://www.jrkyushu.co.jp/company/ir/news/",
-      "note": "2026年11月4日の第2四半期決算発表を確認。次回の発表日時は今回未確認。",
-      "checked": "2026-11-05"
+      "source": "https://www.jrkyushu.co.jp/company/ir/library/calendar/index.html",
+      "note": "公式IRカレンダーで11月4日の中間決算公表を再確認。2027年3月期欄の取得範囲では、次回の発表日時は未確認。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "jaccs",
       "status": "unknown",
       "source": "https://www.jaccs.co.jp/corporate/ir/calender/",
-      "note": "2026年11月5日の中間決算発表を確認。次回の決算発表日時は未確認。11月11日は説明会。",
-      "checked": "2026-11-05"
+      "note": "公式カレンダーで11月5日の中間決算と11月11日の説明会を再確認。年間図の2月上旬は一般的な時期で、次回の確定発表日時は未確認。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "kddi",
       "status": "unknown",
       "source": "https://newsroom.kddi.com/ir-news/detail/kddi_ir-1251_4778.html",
-      "note": "2026年11月6日の中間決算発表を確認。次回の発表日時は未確認。",
-      "checked": "2026-11-07"
+      "note": "公式中間決算の公表ページを再取得。次回発表日時は今回の取得範囲では未確認。公表済み資料と今後の発表予定を区別する。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "orix",
       "status": "unknown",
       "source": "https://www.orix.co.jp/grp/company/ir/library/financial_result/",
-      "note": "2026年11月9日の中間決算発表を確認。次回決算発表日時は未確認。",
-      "checked": "2026-11-10"
+      "note": "公式決算資料一覧で2027年3月期Q2短信掲載を再確認。次回決算発表日時は取得範囲では未確認。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "cyberdyne",
@@ -115,8 +115,8 @@
       "company_id": "fanuc",
       "status": "unknown",
       "source": "https://www.fanuc.co.jp/ja/ir/announce/",
-      "note": "次回の決算発表日は未確認。過去の発表日から推測しません。",
-      "checked": "2026-10-28"
+      "note": "公式決算資料一覧を再確認。2026年度Q2資料・10月23日開催の質疑応答を確認したが、次回決算日時は取得範囲では未確認。過去の日程から推測しない。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "mitsubishi-hc-capital",
@@ -137,22 +137,22 @@
       "company_id": "daiwa-house-reit",
       "status": "unknown",
       "source": "https://www.daiwahouse-reit.co.jp/ja/ir/schedule.html",
-      "note": "次回未確認。2026年8月期の発表は10月19日。分配金支払日とは別です。",
-      "checked": "2026-10-28"
+      "note": "公式直近スケジュールを再確認。2026年8月期発表は10月19日、分配金支払開始は11月9日。次回決算発表日時は取得範囲では未確認。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "tesla",
       "status": "unknown",
       "source": "https://ir.tesla.com/press",
-      "note": "次回の発表日は未確認。米国発表の日時は現地時間・日本時間を区別して追記します。",
-      "checked": "2026-10-28"
+      "note": "公式プレス一覧で10月21日のQ3決算公表を再確認。次回発表日時は取得範囲では未確認。米国日時と日本時間を区別する。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "spacex",
       "status": "unknown",
       "source": "https://ir.spacex.com/investors/",
-      "note": "次回の発表日は未確認。分析記事の更新予定とは別に管理します。",
-      "checked": "2026-10-28"
+      "note": "公式IRトップを再取得したが、取得本文から次回決算日時を確認できず。ページの取得制約と未公表を混同せず、公式イベント等で追加確認する。",
+      "checked": "2026-11-25"
     },
     {
       "company_id": "nf-topix",
@@ -167,16 +167,17 @@
       "source": "https://kabu-peace.co.jp/ir",
       "time": "",
       "status": "unknown",
-      "checked": "2026-10-29"
+      "checked": "2026-11-25",
+      "note": "公式IRに2027年1月期半期報告書・中間決算説明資料の掲載を再確認。通期の発表日時は取得範囲では未確認。"
     },
     {
       "company_id": "anthropic",
       "period": "次回決算",
       "status": "unknown",
       "source": "https://investor.anthropic.com/sec-filings/default.aspx",
-      "checked": "2026-11-20",
-      "note": "11月19日の上場を報道で確認。IR提出資料一覧を検索結果で確認したが、次回決算発表日時は未確認。推測日付は登録しない。"
+      "checked": "2026-11-25",
+      "note": "公式SEC提出資料ページを再取得したが、取得本文は一覧の枠のみで次回決算日時は確認できず。市場価格の確認とは別に継続照合し、推測日付を登録しない。"
     }
   ],
-  "review_note": "2026年11月20日は東京海上HDとAnthropicを部分更新。全銘柄の予定を同日に再調査したものではありません。各行の確認日を参照してください。"
+  "review_note": "2026年11月25日は13対象の公式ページを部分再確認。確認できた範囲では新しい確定発表日を追加していない。本文取得が限定された対象は未確認を維持。他の行は従来の確認日を保持し、全対象の同日再検証とは扱わない。詳細はdocs/calendar-review-20261125.md。"
 }

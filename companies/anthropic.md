@@ -11,13 +11,19 @@ permalink: /companies/anthropic.html
 
 # Anthropic（ANT）の長期監視
 
-**確認基準日：2026年11月20日（日本時間）／監視状況：上場初日の取引を報道で確認。長期投資仮説は維持。**
+**確認基準日：2026年11月25日（日本時間）／監視状況：11月24日の公開価格割れを報道・市場情報サービスで確認。長期投資仮説は維持、株価評価は未実施。**
 
 Claudeの企業・開発者向け需要が、継続的な利益と現金創出につながるかを追う。株価評価は未実施。11月19日のNASDAQ取引開始はReutersの当日報道で確認した。初値111.50ドル、通常取引終値97.17ドルは報道に基づく市場データで、会社の財務開示とは区別する。価格変動だけでは事業仮説を変更せず、株価影響の要因別寄与は保留する。
 
 [IPO当選と長期投資分析を読む]({{ '/columns/anthropic-ipo-long-term-20261119.html' | relative_url }})
 
 [上場初日の検証を読む]({{ "/columns/anthropic-ipo-first-day-20261120.html" | relative_url }}) · [調査・更新ルール](https://github.com/nick-shu3/investment-tankyu/blob/main/docs/anthropic-research-rules.md)
+
+## 最新の監視記録：公開価格割れ
+
+米国11月24日の通常取引終値81.91ドルは、公開価格83ドルを約1.3%下回った。前営業日終値比は約6.5%安。⑧株価変動を更新し、⑦株式需給の安定化関連ポジション解消は既報として扱う。下落要因の寄与度は不明。Nasdaqの一次データとの直接照合は未了。
+
+[IPO後の需給・公開価格割れの検証]({{ '/columns/anthropic-ipo-stabilization-20261122.html' | relative_url }})に出典・計算式・反証条件を記載した。価格変動のみで4つの事業仮説は変更しない。今回は市場価格の部分更新であり、製品・財務の全件再調査ではない。
 
 ## 投資仮説と反証条件
 
@@ -66,6 +72,8 @@ Claudeの企業・開発者向け需要が、継続的な利益と現金創出�
 ## 出典・更新履歴
 
 [会社価格決定発表（米国11月18日）](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)、[Nasdaq Trader](https://nasdaqtrader.com/TraderNews.aspx?id=DTN2026-28)、[SEC S-1/A第3次修正（11月17日）](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm)。11月19日確認。製品・財務・投資仮説の出典は各記事に記載。
+
+2026年11月25日：11月24日終値の公開価格割れをMarketWatch・Yahoo!ファイナンス、公開価格を会社発表で照合。詳細出典は需給コラムのA1〜A3。監視⑧を更新し、長期仮説は維持、株価評価・下落要因の寄与は保留。
 
 2026年11月20日：[Reutersの上場初日報道](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/)（米国11月19日、確認11月20日）に基づき、取引開始・初値の未確認表示を更新。監視8指標のうち⑧株価変動に対応し、長期仮説は維持、株価評価は未実施。新たな個人取引は記載していない。
 
